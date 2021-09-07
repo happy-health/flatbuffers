@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HappyFlatBuffers'
-  s.version          = '2.0.1'
+  s.version          = '2.0.2'
   s.summary          = 'FlatBuffers: Memory Efficient Serialization Library'
 
   s.description      = "FlatBuffers is a cross platform serialization library architected for
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   forwards/backwards compatibility."
 
   s.homepage         = 'https://github.com/google/flatbuffers'
-  s.license          = { :type => 'Apache2.0', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache2.0', :file => 'LICENSE.txt' }
   s.author           = { 'mustii' => 'mustii@mmk.one' }
   s.source           = { :git => 'https://github.com/happy-health/flatbuffers.git', :tag => s.version.to_s }
 
