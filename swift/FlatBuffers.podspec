@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlatBuffers'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'FlatBuffers: Memory Efficient Serialization Library'
 
   s.description      = "FlatBuffers is a cross platform serialization library architected for
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/google/flatbuffers'
   s.license          = { :type => 'Apache2.0', :file => 'LICENSE' }
   s.author           = { 'mustii' => 'mustii@mmk.one' }
-  s.source           = { :git => 'https://github.com/mustiikhalil/flatbuffers.git', :tag => s.version.to_s, :submodules => true }
+  s.source           = { :git => 'https://github.com/happy-health/flatbuffers.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.14'
